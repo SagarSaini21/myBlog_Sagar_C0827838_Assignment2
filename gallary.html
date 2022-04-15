@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/content.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+	<div>
+		<header>
+		<h2>My Blog</h2>
+		</header>
+		<div class="nav-container">
+		<div class="topnav">
+			<a href="index.html">Home</a>
+			<a href="education.html">Education</a>
+			<a class="active" href="gallary.html">Gallary</a>
+			<a href="contact.html">Contact</a>
+		</div>
+		</div>
+		
+			<div id="container">
+			<div class="row"> 
+				  <div class="column">
+					<img src="images/me1.jpg" style="width:100%">
+					<img src="images/g1.jpg" style="width:100%">
+					<img src="images/cn.jpg" style="width:100%">
+					<img src="images/g3.jpg" style="width:100%">
+					
+					
+				  </div>
+				  
+				  <div class="column">
+					<img src="images/me2.jpg" style="width:100%">
+					<img src="images/g2.jpg" style="width:100%">
+					<img src="images/g4.jpg" style="width:100%">
+					<img src="images/chd3.jpg" style="width:100%">
+				
+					
+				  </div>
+				  <div class="column">
+					<img src="images/me3.jpg" style="width:100%">
+					<img src="images/cn.jpg" style="width:100%">
+					<img src="images/g5.jpg" style="width:100%">
+					<img src="images/me2.jpg" style="width:100%">
+					
+					
+				  </div>
+				  <div class="column">
+					<img src="images/g1.jpg" style="width:100%">
+					<img src="images/test2.jpg" style="width:100%">
+					<img src="images/g3.jpg" style="width:100%">
+					<img src="images/me1.jpg" style="width:100%">
+				
+					
+				  </div>
+				
+			</div>	
+			</div>
+		<!--footer starts from here-->
+		<br><br><br>
+
+	</div>
+	<footer class="footer">
+
+		<div>
+		<ul class="foote_bottom_ul_amrc">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		
+		</ul>
+		<!--foote_bottom_ul_amrc ends here-->
+		<p class="text-center">Copyright @2022 | Designed by Sagar Saini</p>
+
+		
+		</div>
+
+		</footer>
+</body>
+
+
+</html>
